@@ -59,7 +59,7 @@ pub fn build(b: *std.Build) void {
             },
         );
         lib.linkFramework("Foundation");
-        lib.linkFramework("Appkit");
+        lib.linkFramework("AppKit");
         lib.addSystemIncludePath(
             .{
                 .src_path = .{
